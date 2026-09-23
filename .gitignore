@@ -1,0 +1,7 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+__pycache__/
+# Raw Pure export contains internal notes - keep it local
+scripts/pure_export.bib

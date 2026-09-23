@@ -1,0 +1,57 @@
+# Publications listed on the CV that are not in the Pure export.
+# These are merged into _data/publications.yml by scripts/bib2yaml.py.
+# Add new items here using the same fields as the generated file.
+
+- type: Journal Articles
+  title: Parameter-Efficient Domain Adaption for CSI Crowd-Counting via Self-Supervised Learning with Adapter Modules
+  authors: [Oliver Custance, Saad Khan, Simon Parkinson, Quan Z. Sheng]
+  venue: IEEE Internet of Things Journal
+  year: 2026
+  note: Advance online publication
+
+- type: Conference Papers
+  title: Transformation of cyber security/safety assurance
+  authors: [R. J. Thomas, George Bearfield, Coen van Gulijk, Simon Parkinson]
+  venue: World Congress on Railway Research
+  year: 2022
+  month: 6
+
+- type: Conference Papers
+  title: Towards Automated Vulnerability Assessment
+  authors: [Saad Khan, Simon Parkinson]
+  venue: 11th Scheduling and Planning Applications woRKshop (SPARK), Carnegie Mellon University, Pittsburgh, USA
+  year: 2017
+  month: 6
+
+- type: Conference Papers
+  title: 'Planning Machine Activity Between Manufacturing Operations: Maintaining Accuracy While Reducing Energy Consumption'
+  authors: [Simon Parkinson, Mauro Vallati, Lukáš Chrpa, Andrew P. Longstaff, Simon Fletcher]
+  venue: 10th Scheduling and Planning Applications woRKshop (SPARK), King's College London
+  year: 2016
+  month: 6
+
+- type: Conference Papers
+  title: Automated Planning for File System Interaction
+  authors: [Simon Parkinson, Dean Hardcastle]
+  venue: 32nd Workshop of the UK Planning and Scheduling Special Interest Group (PlanSIG), Darlington, UK
+  year: 2014
+  month: 12
+
+- type: Conference Papers
+  title: Increasing the Numeric Expressiveness of the Planning Domain Definition Language
+  authors: [Simon Parkinson, Andrew P. Longstaff]
+  venue: 30th Workshop of the UK Planning and Scheduling Special Interest Group (PlanSIG 2012)
+  year: 2012
+
+- type: Conference Papers
+  title: Hierarchical Task Based Process Planning For Machine Tool Calibration
+  authors: [Simon Parkinson, Andrew P. Longstaff, Gary Allen, Andrew Crampton, Simon Fletcher, Alan Myers]
+  venue: 29th Workshop of the UK Planning and Scheduling Special Interest Group (PlanSIG 2011)
+  pages: 53–60
+  year: 2011
+
+- type: Technical Reports
+  title: Review into the cyber threats for connected and autonomous vehicles
+  authors: [Simon Parkinson, Paul Ward]
+  venue: Department for Transport
+  year: 2015

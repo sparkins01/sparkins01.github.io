@@ -1,0 +1,32 @@
+---
+layout: default
+title: Media
+permalink: /media/
+lede: Press coverage, expert comment, articles, invited talks and public engagement.
+---
+{% assign m = site.data.media %}
+<h2>Press and media</h2>
+{% for x in m.press %}
+  <article class="media-item">
+    <time class="media-date" datetime="{{ x.date | date: '%Y-%m-%d' }}">{{ x.date | date: "%b %Y" }}</time>
+    <div>
+      <span class="media-outlet">{{ x.outlet }}</span> <span class="pub-type">{{ x.kind }}</span>
+      <span class="media-title">{% if x.url %}<a href="{{ x.url }}">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}</span>
+      {% if x.summary %}<p class="media-summary">{{ x.summary }}</p>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+
+<h2>Invited talks and events</h2>
+<ul class="timeline">
+{% for x in m.talks %}
+  <li><span class="when">{{ x.year }}</span><span class="what"><strong>{{ x.role }}</strong><span class="detail">{{ x.event }}</span></span></li>
+{% endfor %}
+</ul>
+
+<h2>Knowledge exchange and community engagement</h2>
+<ul class="timeline">
+{% for x in m.engagement %}
+  <li><span class="when">{{ x.years }}</span><span class="what"><strong>{{ x.role }}</strong><span class="detail">{{ x.detail }}</span></span></li>
+{% endfor %}
+</ul>

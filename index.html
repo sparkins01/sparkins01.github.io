@@ -1,0 +1,110 @@
+---
+layout: default
+title: About
+---
+{% assign a = site.author %}
+{% assign pubs = site.data.publications %}
+{% assign journals = pubs | where: "type", "Journal Articles" %}
+{% assign phd_done = site.data.supervision.completed.director | concat: site.data.supervision.completed.team | where: "degree", "PhD" %}
+<section class="profile">
+  {% if a.photo %}
+    <img class="profile-photo" src="{{ a.photo | relative_url }}" alt="Photo of {{ a.name }}">
+  {% else %}
+    <div class="profile-monogram" aria-hidden="true">SP</div>
+  {% endif %}
+  <div>
+    <h1>{{ a.honorific }} {{ a.name }}</h1>
+    <p class="post-nominals">{{ a.post_nominals }}</p>
+    <p class="position">{{ a.position }}, {{ a.affiliation }}</p>
+    <ul class="contact-links">
+      {% if a.email %}<li><a href="mailto:{{ a.email }}">Email</a></li>{% endif %}
+      {% if a.google_scholar %}<li><a href="{{ a.google_scholar }}">Google Scholar</a></li>{% endif %}
+      {% if a.orcid %}<li><a href="{{ a.orcid }}">ORCID</a></li>{% endif %}
+      {% if a.dblp %}<li><a href="{{ a.dblp }}">DBLP</a></li>{% endif %}
+      {% if a.linkedin %}<li><a href="{{ a.linkedin }}">LinkedIn</a></li>{% endif %}
+      {% if a.pure %}<li><a href="{{ a.pure }}">Research portal</a></li>{% endif %}
+      <li><a href="{{ '/files/publications.bib' | relative_url }}">BibTeX</a></li>
+    </ul>
+
+    <p>
+      Simon Parkinson is a Professor of Cyber Security whose research sits at the intersection of
+      artificial intelligence and cyber security. His work develops intelligent techniques that
+      automate security expertise: analysing security event logs and access-control configurations,
+      supporting digital forensic investigations, and building biometric and wireless-sensing
+      authentication systems. He also has a long-standing interest in the security of connected and
+      autonomous vehicles, intelligent transport and railway systems, and in using large language
+      models to support security compliance for operational technology.
+    </p>
+    <p>
+      He spent over a decade at the University of Huddersfield, progressing from Research Fellow
+      (2014) to Professor of Cyber Security (2022), where he was Director of the Centre for Cyber
+      Security and Computer Science Research Co-ordinator. He is a member of the UK Government Cyber
+      Security Advisory Board (GCAB) and the DSIT College of Experts, and Associate Editor of
+      <em>IET Intelligent Transport Systems</em>. His PhD, from the University of Huddersfield, applied
+      domain-independent automated planning to machine tool calibration.
+    </p>
+  </div>
+</section>
+
+<div class="stats">
+  <a class="stat" href="{{ '/publications/' | relative_url }}"><span class="num">{{ pubs.size }}</span><span class="label">Publications</span></a>
+  <a class="stat" href="{{ '/publications/#Journal%20Articles' | relative_url }}"><span class="num">{{ journals.size }}</span><span class="label">Journal articles</span></a>
+  <a class="stat" href="{{ '/grants/' | relative_url }}"><span class="num">{{ site.data.grants.summary[0].total }}</span><span class="label">External research funding</span></a>
+  <a class="stat" href="{{ '/supervision/' | relative_url }}"><span class="num">{{ phd_done.size }}</span><span class="label">PhD completions supervised</span></a>
+</div>
+
+<h2>Research interests</h2>
+<ul class="interests">
+  <li>AI for cyber security</li>
+  <li>Automated planning</li>
+  <li>Security event log analysis</li>
+  <li>Digital forensics</li>
+  <li>Access control</li>
+  <li>Biometrics &amp; authentication</li>
+  <li>Wi-Fi / CSI sensing</li>
+  <li>Connected &amp; autonomous vehicles</li>
+  <li>Railway &amp; OT security</li>
+  <li>LLMs for security compliance</li>
+</ul>
+
+<h2>Current roles</h2>
+<ul class="timeline">
+  <li><span class="when">2026–present</span><span class="what"><strong>Professor of Cyber Security</strong><span class="detail">Manchester Metropolitan University</span></span></li>
+  <li><span class="when">2026–present</span><span class="what"><strong>UK Government DSIT College of Experts</strong></span></li>
+  <li><span class="when">2022–present</span><span class="what"><strong>Member, UK Government Cyber Security Advisory Board (GCAB)</strong></span></li>
+  <li><span class="when">2022–present</span><span class="what"><strong>Associate Editor</strong><span class="detail">IET Intelligent Transport Systems</span></span></li>
+</ul>
+
+<h2>Employment</h2>
+<h3>School of Computing and Engineering, University of Huddersfield</h3>
+<ul class="timeline">
+  <li><span class="when">2022–2026</span><span class="what"><strong>Professor of Cyber Security</strong></span></li>
+  <li><span class="when">2021–2026</span><span class="what"><strong>Computer Science Research Co-ordinator</strong></span></li>
+  <li><span class="when">2018–2026</span><span class="what"><strong>Director, Centre for Cyber Security</strong></span></li>
+  <li><span class="when">2022–2025</span><span class="what"><strong>Designated Academic Liaison Officer (DALO)</strong><span class="detail">MSc Cyber Security &amp; Digital Forensics (Bahrain)</span></span></li>
+  <li><span class="when">2018–2022</span><span class="what"><strong>Reader in Cyber Security</strong></span></li>
+  <li><span class="when">2016–2018</span><span class="what"><strong>Senior Lecturer in Computer Science</strong></span></li>
+  <li><span class="when">2014–2016</span><span class="what"><strong>Lecturer in Computer Science</strong></span></li>
+  <li><span class="when">2014</span><span class="what"><strong>Research Fellow</strong></span></li>
+</ul>
+
+<h2>Qualifications</h2>
+<ul class="timeline">
+  <li><span class="when">2026</span><span class="what"><strong>MSc Strategic Leadership</strong><span class="detail">University of Huddersfield</span></span></li>
+  <li><span class="when">2020</span><span class="what"><strong>CMI Level 7 Certificate in Strategic Management &amp; Leadership</strong><span class="detail">Chartered Management Institute</span></span></li>
+  <li><span class="when">2014</span><span class="what"><strong>PhD, Computational Science</strong><span class="detail">University of Huddersfield. Thesis: <em>Construction of Machine Tool Calibration Plans using Domain-Independent Automated Planning</em></span></span></li>
+  <li><span class="when">2014</span><span class="what"><strong>Fellow of the Higher Education Academy (FHEA)</strong></span></li>
+  <li><span class="when">2010</span><span class="what"><strong>BSc (Hons) Secure and Forensic Computing, First Class</strong><span class="detail">University of Huddersfield</span></span></li>
+</ul>
+
+<h2>Teaching</h2>
+<ul class="timeline">
+  <li><span class="when">2024–present</span><span class="what"><strong>Artificial Intelligence Planning</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2023–present</span><span class="what"><strong>Applied Cryptography</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2020–present</span><span class="what"><strong>Advanced Cyber Security</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2020–present</span><span class="what"><strong>Applications of Artificial Intelligence in Cyber Security</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2016–2021</span><span class="what"><strong>Cyber Security</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2018</span><span class="what"><strong>Introduction to Digital Forensics</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2014–2015</span><span class="what"><strong>Object-Oriented Systems Development</strong><span class="detail">Module leader</span></span></li>
+  <li><span class="when">2013–2019</span><span class="what"><strong>Software Design and Development</strong><span class="detail">Module team</span></span></li>
+</ul>

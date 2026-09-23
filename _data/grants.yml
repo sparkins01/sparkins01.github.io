@@ -1,0 +1,181 @@
+# Research funding. Sources: CV and Pure awards export (Aug 2026).
+# role: PI or Co-I. Add new grants at the top of the relevant list.
+
+summary:
+  - label: External funding
+    total: £5.885m
+    detail: PI £1.735m · Co-I £4.15m
+  - label: Internal (University of Huddersfield)
+    total: £405k
+    detail: PI £126.5k · Co-I £278.5k
+
+external:
+  - years: 2026–2029
+    funder: Innovate UK (KTP with Petards Joyce-Loebl)
+    title: A new approach to cryptographic certificate signing
+    role: Co-I
+    amount: £275k
+  - years: 2026–2029
+    funder: Innovate UK
+    title: The Yorkshire Robotics Adoption Hub
+    role: Co-I
+    amount: £2.75m
+  - years: "2026"
+    funder: ESRC / SPRITE+ (RISE VAWG programme)
+    title: "SaferStreetsAI: AI-informed pedestrian routing based on perceived safety"
+    role: PI
+    amount: £50k
+    description: Uses AI to analyse street-level imagery and understand how people perceive safety in everyday environments, supporting safer route choices for citizens and evidence-based guidance for planners. A collaboration with the University of Manchester, funded through RISE, an accelerated programme tackling violence against women and girls.
+  - years: 2025–2026
+    funder: Innovate UK
+    title: "CLAIM: CENELEC Lifecycle Artificial Intelligence Manager"
+    role: PI
+    amount: £93k
+    description: An AI-driven software tool designed to significantly enhance the quality and efficiency of complex UK railway security projects.
+  - years: "2025"
+    funder: Innovate UK / EPSRC
+    title: EPSRC additional skills funding (summer 2025)
+    role: PI
+    amount: £150k
+  - years: 2025–2026
+    funder: Innovate UK
+    title: "MINT: Manufacturing Intelligence for Net-zero Technology"
+    role: PI
+    amount: £100k
+    description: A practical, scalable solution to help SME manufacturers reduce energy consumption and carbon emissions through intelligent, low-cost upgrades to existing factory equipment.
+  - years: 2024–2025
+    funder: Innovate UK
+    title: "RAPORS: Rail AI-Powered Optimization and Review System"
+    role: PI
+    amount: £50k
+    description: Uses Large Language Models to enhance the assessment and management of safety-critical railway software, automating reviews of compliance with standards such as EN 50716:2023.
+  - years: 2024–2025
+    funder: Innovate UK
+    title: "REDGE: Resilient Energy Digital Grid Engine"
+    role: PI
+    amount: £150k
+    description: A digital twin platform for energy assets (such as wind turbines and solar panels) with integrated cyber security monitoring, using AI-driven analytics to detect anomalies and prioritise recovery actions. In collaboration with Digital Transit Ltd.
+  - years: 2024–2025
+    funder: Innovate UK
+    title: "Unlocking nature-positive private investment: AI-driven environmental monitoring, reporting and verification (MRV) methodology and optimisation engine for biomineralisation-centric, nature-positive food systems"
+    role: Co-I
+    amount: £137k
+  - years: 2023–2026
+    funder: Innovate UK
+    title: Tools and Techniques for Operational Technology Cyber Security Compliance in Rail (UK–Singapore collaboration)
+    role: PI
+    amount: £350k
+    description: A natural language processing system that guides users unfamiliar with cyber security requirements through rules and regulations, to create operational technology systems that are both compliant and secure.
+  - years: "2024"
+    funder: Innovate UK (Academic Cyber Startup Programme)
+    title: A Secure and Trusted Decentralised Platform for Threat Information Sharing
+    role: Co-I
+    amount: £31k
+  - years: 2022–2023
+    funder: Dstl (Defence and Security Accelerator)
+    title: Automated learning and exploitation of action-based domain models in heterogeneous security data sources
+    role: PI
+    amount: £135k
+  - years: 2020–2022
+    funder: Innovate UK (KTP with ValueChain Ltd)
+    title: Machine learning tools for intelligent supply chain modelling
+    role: Co-I
+    amount: £147k
+  - years: "2020"
+    funder: Innovate UK (Academic Cyber Startup Programme)
+    title: "SocialSPI: Training the public about sensitive personal information on social media"
+    role: PI
+    amount: £20k
+  - years: 2018–2019
+    funder: Innovate UK (Academic Cyber Startup Programme)
+    title: "ExpertSecure: A generic security expert automation system (Phases 1, 2 and 3)"
+    role: PI
+    amount: £86k
+    description: Phase 1 £14k, Phase 2 £12k, Phase 3 £60k.
+  - years: 2018–2021
+    funder: ESRC
+    title: A computational model of deception detection in SMS scams
+    role: Co-I
+    amount: £126k
+  - years: "2017"
+    funder: Home Office
+    title: Quantifying the Scale of Online-Facilitated Child Sexual Abuse
+    role: Co-I
+    amount: £25k
+  - years: 2017–2018
+    funder: European Commission
+    title: Security Toolkit for Multi-modal Passenger Transport Terminals
+    role: Co-I
+    amount: £176k (€198k)
+  - years: "2017"
+    funder: Digital Catapult Centre / EPSRC Researcher in Residence
+    title: Improving Cyber Security Awareness and Readiness of Yorkshire SMEs
+    role: PI
+    amount: £26k
+  - years: 2017–2018
+    funder: EPSRC & University of Nottingham (Network Plus)
+    title: "Industrial Systems in the Digital Age: Feasibility Studies"
+    role: Co-I
+    amount: £60k
+  - years: 2017–2019
+    funder: Innovate UK (KTP with Mainstream Measurements Ltd)
+    title: Remote, secure control and acquisition of metrology data
+    role: PI
+    amount: £122k
+  - years: "2016"
+    funder: Department for Transport
+    title: Review into the cyber threats facing connected and autonomous vehicles
+    role: PI
+    amount: £14k
+  - years: 2016–2018
+    funder: Innovate UK (KTP with Axia Digital Ltd)
+    title: Intelligent, secure and reconfigurable e-portfolio architecture
+    role: PI
+    amount: £120k
+  - years: 2015–2017
+    funder: Technology Strategy Board (CR&D)
+    title: Modular machine tool and process simulator for precision machining
+    role: Co-I
+    amount: £153k
+
+internal:
+  - years: 2023–2024
+    title: Priming state-of-the-art digital forensic research
+    role: Co-I
+    amount: £170k
+  - years: 2023–2024
+    title: Cyberpsychology Research Network
+    role: Co-I
+    amount: £62.5k
+  - years: 2022–2023
+    title: Automated Digital Investigation
+    role: PI
+    amount: £115k
+  - years: 2016–2019
+    title: University Research Fund PhD stipend to develop cyber security capacity, linked with the formation of the Secure Societies Institute
+    role: Co-I
+    amount: £46k
+  - years: "2019"
+    title: "Collaborative Venture Fund with MDD Technologies: MyAuthentic8, theory into working practice"
+    role: PI
+    amount: £2.5k
+  - years: "2018"
+    title: "Collaborative Venture Fund with Kursch Ltd: Empirical analysis of the Loadstar platform"
+    role: PI
+    amount: £2.5k
+  - years: "2017"
+    title: "Collaborative Venture Fund with Konnektis Ltd: Data security and compliance consultation"
+    role: PI
+    amount: £2.5k
+  - years: "2017"
+    title: "Collaborative Venture Fund with Equilibrium Risk Ltd: Development of an auditing tool for Microsoft IIS services"
+    role: PI
+    amount: £2.5k
+  - years: "2016"
+    title: "Collaborative Venture Fund with Probado Ltd: Developing a flexible network audit and reporting tool"
+    role: PI
+    amount: £2.5k
+  - years: "2015"
+    title: "Collaborative Venture Fund with Portcullis Security Ltd: Developing software to extract Microsoft Active Directory permissions"
+    role: PI
+    amount: £1.5k

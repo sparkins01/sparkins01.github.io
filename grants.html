@@ -1,0 +1,35 @@
+---
+layout: default
+title: Grants
+permalink: /grants/
+lede: Research and knowledge-exchange funding from UKRI, Innovate UK, government departments, the European Commission and industry partners.
+---
+{% assign g = site.data.grants %}
+{% assign pi = g.external | where: "role", "PI" %}
+<div class="stats">
+  {% for s in g.summary %}
+    <div class="stat"><span class="num">{{ s.total }}</span><span class="label">{{ s.label }}<br>{{ s.detail }}</span></div>
+  {% endfor %}
+  <div class="stat"><span class="num">{{ g.external.size }}</span><span class="label">External awards<br>{{ pi.size }} as Principal Investigator</span></div>
+</div>
+
+<h2>External funding</h2>
+<div class="card-list">
+{% for x in g.external %}
+  <article class="card">
+    <div class="card-head">
+      <h3 class="card-title">{{ x.title }}</h3>
+      <span class="amount">{{ x.amount }}</span>
+    </div>
+    <p class="card-meta"><span class="tag {% if x.role == 'PI' %}pi{% else %}coi{% endif %}">{{ x.role }}</span> &nbsp;{{ x.funder }} · {{ x.years }}</p>
+    {% if x.description %}<p class="desc">{{ x.description }}</p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+
+<h2>Internal funding</h2>
+<ul class="timeline">
+{% for x in g.internal %}
+  <li><span class="when">{{ x.years }}</span><span class="what"><strong>{{ x.title }}</strong><span class="detail"><span class="tag {% if x.role == 'PI' %}pi{% else %}coi{% endif %}">{{ x.role }}</span> &nbsp;{{ x.amount }}</span></span></li>
+{% endfor %}
+</ul>

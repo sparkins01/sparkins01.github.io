@@ -1,0 +1,44 @@
+# Site settings - edit these to update the header, footer and About page contact links.
+title: Professor Simon Parkinson
+description: Professor of Cyber Security. Research in artificial intelligence for cyber security, digital forensics, biometrics and the security of intelligent transport systems.
+url: https://sparkins01.github.io
+baseurl: ""
+lang: en-GB
+
+author:
+  name: Simon Parkinson
+  honorific: Professor
+  post_nominals: PhD, BSc, MBCS, FHEA, CMgr
+  position: Professor of Cyber Security
+  affiliation: Manchester Metropolitan University
+  email: parkinson.sl@gmail.com
+  # photo: /assets/img/profile.jpg     # add a photo to assets/img and uncomment
+  # Profile links: uncomment and fill in any you want shown on the About page.
+  # google_scholar: https://scholar.google.com/citations?user=XXXXXXX
+  # orcid: https://orcid.org/0000-0000-0000-0000
+  # linkedin: https://www.linkedin.com/in/XXXXXXX
+  # dblp: https://dblp.org/pid/XXX/XXXX.html
+  # pure: https://research.hud.ac.uk/...     # University of Huddersfield Pure profile
+
+nav:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Grants
+    url: /grants/
+  - title: Awards
+    url: /awards/
+  - title: Supervision
+    url: /supervision/
+  - title: Media
+    url: /media/
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

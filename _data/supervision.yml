@@ -1,0 +1,283 @@
+# Research supervision. Sources: CV and Pure student thesis records (Aug 2026).
+# Titles for completed students use the thesis title recorded in Pure where available.
+
+current:
+  director:
+    - name: Regan Bolton
+      degree: PhD
+      title: The use of Large Language Models for Security Compliance
+      years: 2024–2027
+    - name: Mohamed Ishfaq
+      degree: PhD
+      title: Zero-Day Attacks and High False Alarms in Enhanced Intrusion Detection System for Computing Environments Using Machine Learning
+      years: 2024–2027
+    - name: Mohammed Reza
+      degree: PhD
+      title: Detecting the use of Generative AI in images
+      years: 2024–2027
+    - name: Christian Wellens-Miles
+      degree: PhD
+      title: Detecting Deceitful Behaviour in Traffic Control
+      years: 2023–2026
+    - name: Daniel Cecil
+      degree: PhD
+      title: Graph-based Security Evaluation & Design in the Internet of Things Devices and Networks
+      years: 2021–2024
+    - name: Mohamed Massoud
+      degree: PhD
+      title: Virtual working network as a novel framework for supporting virtual network environment based on a social networking perspective
+      years: 2015–2024
+  team:
+    - name: Farah Farid Babar
+      degree: PhD
+      title: Developing new methods for detecting and excluding adversarial clients from the Federated Learning process
+      years: 2024–2027
+    - name: Mohammad Ishfaq
+      degree: PhD
+      title: High-Performance Computing Security Framework
+      years: 2024–2027
+    - name: Syed Usman Shaukat
+      degree: PhD
+      title: Vulnerabilities and weaknesses in Internet of Things (IoT) devices
+      years: 2024–2027
+    - name: Matthew Benjamin Tinker
+      degree: PhD
+      title: High-Performance Computing Security Framework
+      years: 2024–2027
+    - name: Siraaj Akhtar
+      degree: PhD
+      title: The use of language models in processing event-based security datasets
+      years: 2023–2026
+    - name: Oliver Custance
+      degree: PhD
+      title: Identification and Classification Using Channel State Information
+      years: 2023–2026
+    - name: Christopher Schuessler
+      degree: PhD
+      title: Identification and Classification Using Channel State Information
+      years: 2023–2026
+
+completed:
+  director:
+    - name: Abigail McAlpine
+      degree: PhD
+      title: Exploring Parents Sharing of Children's Personal Information on Online Social Networks
+      year: 2025
+    - name: Omar Alshaikh
+      degree: PhD
+      title: Towards Standardising the Evaluation and Communication of Machine Learning Cyber Security Solutions
+      year: 2024
+    - name: Laju Mosan
+      degree: PhD
+      title: Usability in Smart Home Access Control Policy Administration
+      year: 2024
+    - name: Adediji Fakoya
+      degree: PhD
+      title: Image Representation of Neuroimaging Data for Prediction of Alzheimer's Disease Using Deep Learning
+      year: 2024
+    - name: Samuel Egunjobi
+      degree: PhD
+      title: Ransomware Detection and Classification using Feature Selection and Machine Learning Techniques
+      year: 2024
+    - name: Iyalla Alamina
+      degree: PhD
+      title: Deep Scattering and End-to-End Speech Models towards Low Resource Speech Recognition
+      year: 2021
+    - name: Feyiseye Fadeni
+      degree: PhD
+      title: A Method for Representing Knowledge and Improving Answer Prediction in Question and Answer Domain
+      year: 2019
+    - name: Saad Khan
+      degree: PhD
+      title: Discovering and Utilising Expert Knowledge from Security Event Logs
+      year: 2019
+    - name: Mohammed Mayat
+      degree: PhD
+      title: "Autonomous Road Transport Systems: A Stakeholder Perspective"
+      year: 2018
+    - name: Shrey Verma
+      degree: MRes
+      title: Generating Synthetic Automotive Data and Detecting Abnormal Vehicle Behaviour Using Unsupervised Machine Learning
+      year: 2022
+    - name: Sean Howson
+      degree: MRes
+      title: The development of a platform intended to integrate industrial networking protocol into range of ultrasonic flowmeters
+      year: 2020
+    - name: George Murazvu
+      degree: MRes
+      title: "Software Testing: An Analysis of the Impacts of Test Automation on Software's Cost, Quality and Time"
+      year: 2020
+    - name: Timothy Sharples
+      degree: MRes
+      title: A Framework for Creating Automated Players in a Real-time Strategy Game
+      year: 2018
+    - name: Daniel Turner
+      degree: MRes
+      title: Investigating the optimization of grinding processes through software automation and thermal modelling
+      year: 2017
+  team:
+    - name: M. Zehra
+      degree: Master's
+      title: Secure Software by Design from an Adversary Perspective
+      year: 2026
+    - name: Hui Xie
+      degree: PhD
+      title: Quantitative Modelling of System Uncertainty for Sophisticated Coupled Systems using Artificial Intelligence Technology
+      year: 2025
+    - name: A. L. Delgoda Arachchilage Dona
+      degree: Master's
+      title: Stop-Level Bus Clustering Prediction for Enhanced Public Transport Reliability in West Yorkshire
+      year: 2025
+    - name: Hasheem Danbatta
+      degree: PhD
+      title: On the Analysis and Evaluation of Protocol-Based Attack Traffic Samples for Network Intrusion Detection Systems
+      year: 2024
+    - name: Jordon Birdsall
+      degree: PhD
+      title: Optimal Model-parameter Determination for Feedforward Artificial Neural Networks
+      year: 2024
+    - name: N. Ariaga
+      degree: PhD
+      title: Improving Machine Tool Thermal Compensation Through Switching of Targeted Models
+      year: 2024
+    - name: Muhammed Ansari
+      degree: PhD
+      title: The Identification of Micro-Defect Anomalies in Laser Powder Bed Fusion via Deep Machine Learning Models
+      year: 2023
+    - name: Onyedikachi Ulelu
+      degree: PhD
+      title: Towards a Decision Support System for Distributed Data Management in Digital Manufacturing
+      year: 2022
+    - name: Na Liu
+      degree: PhD
+      title: Exploring Public Acceptance of Connected and Autonomous Vehicles with a Focus on Cyber Security and Privacy Risks
+      year: 2021
+    - name: Leandros Maglaras
+      degree: PhD
+      title: Intrusion Detection in SCADA Systems using Machine Learning Techniques
+      year: 2018
+    - name: Johnathan Miller
+      degree: PhD
+      title: Improved Machine Tool Linear Axis Calibration Through Continuous Motion Data Capture
+      year: 2018
+
+postdocs:
+  - name: Fatemeh Banaie Heravan
+    role: Research Fellow, Cyber Security
+    years: 2025–2027
+  - name: Mohammed Reza
+    role: Research Assistant, Cyber Security
+    years: 2025–2026
+  - name: Chiheng Huang
+    role: Research Assistant, Cyber Security
+    years: "2025"
+  - name: Dr Monika Roopak
+    role: Research Fellow, Cyber Security
+    years: 2022–2024
+  - name: Dr Saad Khan
+    role: Research Fellow, Cyber Security
+    years: 2019–2020
+  - name: Dr Iffat Gheyas
+    role: Research Fellow, Cyber Security
+    years: 2017–2019
+
+placements:
+  - years: "2025"
+    names: Saniya Ginny, Sania Shakil Ahmad Deshmukh (Undergraduate)
+  - years: "2021"
+    names: Muhammad Anas (Postgraduate)
+  - years: "2020"
+    names: Muhammad Okasha Khan (Postgraduate)
+  - years: 2020–2021
+    names: Alexandru-Mihai Badea (Undergraduate)
+  - years: 2019–2020
+    names: Kyle Dakin, Wei Xie (Undergraduate)
+  - years: 2017–2018
+    names: Oliver Thorpe, Archie Baker, Kieran Laughlin (Undergraduate)
+  - years: 2016–2017
+    names: James Bray, Daiyaan Shreef (Undergraduate)
+
+examining:
+  external:
+    - name: Oyeyemi Kuku
+      degree: PhD
+      institution: London Metropolitan University
+      year: 2026
+      title: Digital Forensic Readiness in IoT-Enabled Organisations and Forensic Investigation Analysis in Real-Time
+    - name: James Barrett
+      degree: PhD
+      institution: University of the West of England
+      year: 2026
+      title: Interactive machine learning for identifying threats to security and service in large-scale mobile networks
+    - name: Abdiweli Halane
+      degree: PhD
+      institution: London Metropolitan University
+      year: 2025
+      title: How to share cyber intelligence automatically in real-time by using state machine process
+    - name: Moojan Pordelkhaki
+      degree: PhD
+      institution: Birmingham City University
+      year: 2025
+      title: A Process-Informed Approach to Network Intrusion Detection for Industrial Control Systems
+    - name: Matteo Cardellini
+      degree: PhD
+      institution: Politecnico di Torino
+      year: 2025
+      title: Symbolic Pattern Planning
+    - name: Abdelrahman Khaled Elkhamry
+      degree: MSc
+      institution: German University in Cairo
+      year: 2024
+      title: Robotics and Unmanned Vehicle Control Through Robust Networking Strategies for Data Security
+    - name: Parisa Zehtabi
+      degree: PhD
+      institution: King's College London
+      year: 2021
+      title: Planning and Robust Execution for Hybrid Systems via Satisfiability Modulo Theories
+    - name: Jøsok Sammendrag
+      degree: PhD
+      institution: Norway University of Applied Sciences, Lillehammer
+      year: 2020
+      title: "Grow up digital: Developing cognitive agility and decision-making competence to maneuver in domains of complexity"
+    - name: Kashif Mehboob
+      degree: PhD
+      institution: NED University of Engineering and Technology, Pakistan
+      year: 2019
+      title: Investigating and Countering Transaction Malleability Attacks in Blockchain Systems
+  internal:
+    - name: Tochukwu Emma-Duru
+      degree: PhD
+      year: 2025
+      title: Reference Architecture for Security in IoT Systems in Healthcare
+    - name: Diaeddin Alarnaouti
+      degree: PhD
+      year: 2024
+      title: Reformulation Approaches for Numeric Planning
+    - name: Yajuan Wei
+      degree: PhD
+      year: 2024
+      title: An Investigation of Video Understanding for Smart Surveillance
+    - name: Benjamin Agbo
+      degree: PhD
+      year: 2022
+      title: Downstream and Privacy-Preserving Missing Data Recovery for IoT Systems
+    - name: Nurudeen Alegeh
+      degree: PhD
+      year: 2021
+      title: Condition Monitoring of Machine Tool Ball Screw Feed Drives Through Signal Analysis and Artificial Intelligence
+    - name: Taha Al-Jody
+      degree: PhD
+      year: 2021
+      title: "Barricade: A Novel High-Performance Computing User and Security Management System Augmented with Machine Learning Technology"
+    - name: Faizan Bhatti
+      degree: PhD
+      year: 2021
+      title: Exploiting Control Theory to Improve Domain-Independent Planning in Hybrid Domains
+    - name: Ashley Cusak
+      degree: PhD
+      year: 2020
+      title: A Self-Optimising Signal Processing Workspace for Surface and Dimensional Metrology
+    - name: Muss Omar
+      degree: PhD
+      year: 2018
+      title: Semi-Automated Development of Conceptual Models from Natural Language Texts

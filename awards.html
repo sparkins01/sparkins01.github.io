@@ -1,0 +1,39 @@
+---
+layout: default
+title: Awards
+permalink: /awards/
+lede: Awards and honours, advisory appointments, editorial and programme committee roles, and service to funding bodies.
+---
+{% assign d = site.data.awards %}
+<h2>Awards and honours</h2>
+<ul class="timeline">
+{% for x in d.awards %}
+  <li><span class="when">{{ x.year }}</span><span class="what"><strong>{{ x.title }}</strong>{% if x.detail %}<span class="detail">{{ x.detail }}</span>{% endif %}</span></li>
+{% endfor %}
+</ul>
+
+<h2>Appointments and editorial roles</h2>
+<ul class="timeline">
+{% for x in d.appointments %}
+  <li><span class="when">{{ x.years }}</span><span class="what">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+
+<div class="two-col">
+  <section>
+    <h2>Service to funding bodies</h2>
+    <ul class="timeline">
+    {% for x in d.funding_service %}
+      <li><span class="when">{{ x.years }}</span><span class="what">{{ x.title }}</span></li>
+    {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <h2>External examiner (teaching)</h2>
+    <ul class="timeline">
+    {% for x in d.external_examining %}
+      <li><span class="when">{{ x.years }}</span><span class="what">{{ x.title }}</span></li>
+    {% endfor %}
+    </ul>
+  </section>
+</div>

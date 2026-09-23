@@ -1,0 +1,110 @@
+# Press, media and talks. Sources: Pure press/media export and CV (Aug 2026).
+# kind: News coverage, Expert comment, Article, Interview. Newest first.
+
+press:
+  - date: 2026-06-01
+    outlet: The Yorkshire Post
+    title: Project's AI identifies safest walking routes
+    kind: News coverage
+    url: https://www.pressreader.com/uk/yorkshire-post/20260601/282059103667552
+    summary: Coverage of the £50k SaferStreetsAI project, funded through the RISE programme tackling violence against women and girls.
+  - date: 2026-05-22
+    outlet: Huddersfield Hub
+    title: University of Huddersfield researchers secure £50k in funding for AI project to help make Kirklees streets safer
+    kind: News coverage
+    url: https://huddersfieldhub.co.uk/university-of-huddersfield-researchers-secure-50k-in-funding-for-ai-project-to-help-make-kirklees-streets-safer/
+    summary: SaferStreetsAI uses AI to map the safest walking routes in Kirklees.
+  - date: 2026-05-19
+    outlet: University of Huddersfield
+    title: Researchers receive £50k in funding for SaferStreetsAI project
+    kind: News coverage
+    url: https://www.hud.ac.uk/news/2026/may/researchers-funding-saferstreetsai-project/
+    summary: "“SaferStreetsAI uses AI to better understand how people experience safety in everyday environments and how that information can be positively used to help citizens and policymakers make more informed decisions.”"
+  - date: 2020-08-18
+    outlet: Physics World
+    title: How to hack a self-driving car
+    kind: Expert comment
+    url: https://physicsworld.com/a/how-to-hack-a-self-driving-car/
+  - date: 2019-07-05
+    outlet: Telegraph & Argus
+    title: Researcher scoops honour
+    kind: News coverage
+    summary: KTP Associate Sean Howson won the “Future Innovator” award at the Knowledge Transfer Partnership Best of the Best Awards.
+  - date: 2019-03-04
+    outlet: New Scientist
+    title: Hacking just 1 in 10 cars could gridlock all of the roads in Manhattan
+    kind: Expert comment
+    url: https://www.newscientist.com/article/2195489-hacking-just-1-in-10-cars-could-gridlock-all-of-the-roads-in-manhattan/
+  - date: 2018-02-01
+    outlet: BusinessCloud
+    title: Authorities 'powerless' to close down dark web
+    kind: Expert comment
+    url: http://www.businesscloud.co.uk/news/authorities-powerless-to-close-down-dark-web
+  - date: 2017-09-19
+    outlet: Konnektis
+    title: The future of cyber security in healthcare
+    kind: Article
+    url: http://www.konnektis.com/new-gallery/2017/9/19/nx4s0fn3otvf49pavmh2lriovnr498
+  - date: 2017-05-01
+    outlet: The Conversation
+    title: Are public sector organisations more at risk from cyber-attacks on old computers?
+    kind: Article
+    url: https://theconversation.com/are-public-sector-organisations-more-at-risk-from-cyber-attacks-on-old-computers-77802
+  - date: 2017-05-01
+    outlet: BBC Radio Leeds
+    title: Interview on ransomware impact, detection and mitigation
+    kind: Interview
+  - date: 2016-04-22
+    outlet: AlphaGalileo
+    title: Huddersfield University researchers to help Iraq authorities in fight against Islamic State
+    kind: News coverage
+    url: http://www.alphagalileo.org/ViewItem.aspx?ItemId=163408&CultureCode=en
+
+talks:
+  - year: "2026"
+    role: Invited Speaker
+    event: 5th International Conference on Intelligent Systems, Communications and Computer Networks, Henan, China
+  - year: "2025"
+    role: Invited Speaker
+    event: 5th International Conference on Computer Communication and Artificial Intelligence, Haikou, China
+  - year: "2024"
+    role: Invited Speaker
+    event: 4th International Conference on Computer Communication and Artificial Intelligence, Xi’an, China
+  - year: 2023–2024
+    role: Home Office Deployment
+    event: Advanced Voice Matching for Investigative Purposes, delivered to Ukrainian delegates
+  - year: "2022"
+    role: Keynote
+    event: Arab International Cybersecurity Conference and Exhibition, Bahrain
+  - year: "2022"
+    role: Public Lecture
+    event: Digital Biometrics and Online Identity, Huddersfield
+  - year: "2017"
+    role: Panel Member
+    event: "6th annual YEN Expo Conference, panel session: GDPR and Cyber Security"
+  - year: "2017"
+    role: Panel Member
+    event: Business Insider panel, Cyber Security & GDPR
+  - year: "2017"
+    role: Organiser
+    event: Cyber Security Ransomware Challenge, Digital Catapult & University of Huddersfield
+  - year: "2016"
+    role: Organiser
+    event: "Cyber Security: Addressing the threats for your business, 3M BIC"
+  - year: "2016"
+    role: Presenter
+    event: Yorkshire Cyber Security Cluster, Huddersfield
+
+engagement:
+  - years: 2019–2022
+    role: Support Academic
+    detail: "ValueChain KTP: Machine Learning in Supply Chain Analysis"
+  - years: 2018–2020
+    role: Support Academic
+    detail: "Bob’s Business KTP: developing a psychological understanding of when and why computer users engage with phishing emails"
+  - years: 2017–2021
+    role: Advisory Member
+    detail: West Yorkshire Police Cyber Independent Advisory Group
+  - years: 2017–2020
+    role: Advisory Member
+    detail: Yorkshire Cyber Security Cluster Steering Group

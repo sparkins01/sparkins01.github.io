@@ -1,0 +1,86 @@
+# Awards, honours and esteem. Source: CV (Aug 2026). Newest first.
+
+awards:
+  - year: "2024"
+    title: University “Innovate Research” Award
+    detail: For innovation in cyber security research, University of Huddersfield
+  - year: "2024"
+    title: School “Supervisor of the Year” Award
+    detail: For postgraduate supervision
+  - year: "2023"
+    title: Best Applications Track Paper Award
+    detail: International Conference on Automated Planning and Scheduling (ICAPS)
+  - year: "2023"
+    title: Best Presentation Award
+    detail: 3rd International Conference on Computer Communication and Artificial Intelligence (CCAI), China
+  - year: "2020"
+    title: University “Supervisor of the Year” Award
+    detail: For postgraduate supervision, University of Huddersfield
+  - year: "2019"
+    title: KTP “Future Innovator” Award
+    detail: Won by the KTP Associate on the Mainstream Measurements Knowledge Transfer Partnership, KTP Best of the Best Awards
+  - year: 2018, 2019
+    title: School “Supervisor of the Year” Award
+    detail: For postgraduate supervision
+  - year: "2018"
+    title: Three University “Thank You” Awards
+    detail: For postgraduate supervision, University of Huddersfield
+  - year: "2017"
+    title: EPSRC ICT Theme Early Career Workshops
+    detail: Selected to take part
+  - year: "2014"
+    title: Nominated for the BCS Distinguished Dissertation Award
+  - year: "2011"
+    title: NTFS Permissions Explorer ranked No. 1 in GFI’s 101 Free Admin Tools
+    detail: The tool has since been used by more than 50,000 people
+  - year: "2010"
+    title: Best Final Year Dissertation
+    detail: University of Huddersfield
+
+appointments:
+  - years: 2026–present
+    title: UK Government DSIT College of Experts
+  - years: 2022–present
+    title: UK Government Cyber Security Advisory Board (GCAB), Member
+  - years: 2022–present
+    title: Associate Editor, IET Intelligent Transport Systems
+  - years: "2026"
+    title: Senior Programme Committee, 40th AAAI Conference on Artificial Intelligence (AAAI-26), Singapore
+  - years: "2023"
+    title: Workshop & Tutorial Co-Organiser, ICAPS 2023, Charles University, Prague
+  - years: 2019–2020
+    title: Applications Track Co-Chair, ICAPS (Nancy, France and Berkeley, USA)
+  - years: 2018–2020
+    title: Area Editor, EAI Endorsed Transactions on Security and Safety
+  - years: 2016–present
+    title: Organising Committee, Scheduling and Planning Applications woRKshop (SPARK)
+  - years: 2017–present
+    title: Programme Committee, ICAPS; also ECAI (2020–), AAMAS (2019–), IJCAI (2018–) and IEEE ICVES (2018–)
+
+funding_service:
+  - years: "2025"
+    title: Reviewer, Defence-related Research Action (DEFRA), Belgian Defence
+  - years: 2024–present
+    title: Reviewer, Swiss National Science Foundation (SNSF)
+  - years: 2024–present
+    title: Reviewer, The Israeli Smart Transportation Research Centre
+  - years: 2020–present
+    title: Reviewer, EPSRC proposals
+  - years: 2020–present
+    title: Reviewer, National Research, Development and Innovation Office, Hungary
+  - years: "2020"
+    title: Expert Panel Member, EPSRC Protecting Citizens Online
+
+external_examining:
+  - years: 2026–present
+    title: Xi’an Jiaotong-Liverpool University (XJTLU), Cyber Security UG/PG pathways
+  - years: 2023–present
+    title: De Montfort University, Cyber Security UG/PG pathways
+  - years: 2020–2024
+    title: Leeds Beckett University, Cyber Security UG/PG pathways
+  - years: 2018–2022
+    title: Glasgow Caledonian University, Cyber Security UG pathways
+  - years: "2022"
+    title: University of Wolverhampton, Cyber Security UG course validation
+  - years: "2020"
+    title: University of York, Cyber Security UG course validation

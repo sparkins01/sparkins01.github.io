@@ -1,0 +1,72 @@
+---
+layout: default
+title: Supervision
+permalink: /supervision/
+lede: Doctoral and research-degree students, postdoctoral researchers, and research examining.
+---
+{% assign s = site.data.supervision %}
+{% assign done = s.completed.director | concat: s.completed.team %}
+{% assign done_phd = done | where: "degree", "PhD" %}
+{% assign current = s.current.director | concat: s.current.team %}
+<div class="stats">
+  <div class="stat"><span class="num">{{ done_phd.size }}</span><span class="label">PhD completions</span></div>
+  <div class="stat"><span class="num">{{ done.size | minus: done_phd.size }}</span><span class="label">Research master's completions</span></div>
+  <div class="stat"><span class="num">{{ current.size }}</span><span class="label">Current PhD students</span></div>
+  <div class="stat"><span class="num">{{ s.examining.external.size | plus: s.examining.internal.size }}</span><span class="label">Research degrees examined</span></div>
+</div>
+
+<h2>Current students</h2>
+<h3>Director of Studies</h3>
+<ul class="student-list">
+{% for x in s.current.director %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.years }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+<h3>Supervisory team</h3>
+<ul class="student-list">
+{% for x in s.current.team %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.years }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+
+<h2>Completed students</h2>
+<h3>Director of Studies</h3>
+<ul class="student-list">
+{% for x in s.completed.director %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.year }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+<h3>Supervisory team</h3>
+<ul class="student-list">
+{% for x in s.completed.team %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.year }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+
+<h2>Postdoctoral researchers and research assistants</h2>
+<ul class="timeline">
+{% for x in s.postdocs %}
+  <li><span class="when">{{ x.years }}</span><span class="what"><strong>{{ x.name }}</strong><span class="detail">{{ x.role }}</span></span></li>
+{% endfor %}
+</ul>
+
+<h2>Placement students</h2>
+<ul class="timeline">
+{% for x in s.placements %}
+  <li><span class="when">{{ x.years }}</span><span class="what">{{ x.names }}</span></li>
+{% endfor %}
+</ul>
+
+<h2>Research degree examining</h2>
+<h3>External examiner</h3>
+<ul class="student-list">
+{% for x in s.examining.external %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.institution }}, {{ x.year }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
+<h3>Internal examiner</h3>
+<ul class="student-list">
+{% for x in s.examining.internal %}
+  <li><span><span class="student-name">{{ x.name }}</span><span class="student-degree">{{ x.degree }}</span></span><span class="student-year">{{ x.year }}</span><span class="student-title">{{ x.title }}</span></li>
+{% endfor %}
+</ul>
