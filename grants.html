@@ -4,9 +4,8 @@ title: Grants
 permalink: /grants/
 ---
 {% assign g = site.data.grants %}
-{% assign pi = g.external | where: "role", "PI" %}
 {% for s in g.summary %}
-<p class="summary">Total external funding: <strong>{{ s.total }}</strong> ({{ s.detail }}) across {{ g.external.size }} awards, {{ pi.size }} as Principal Investigator.</p>
+<p class="summary">Total external funding: <strong>{{ s.total }}</strong> across {{ g.external.size }} awards.</p>
 {% endfor %}
 
 <ol class="cv-list numbered" reversed>
