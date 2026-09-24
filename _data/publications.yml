@@ -456,6 +456,16 @@
   doi: 10.37965/jdmd.2025.832
   abstract: As a critical technology for industrial system reliability and safety, machine monitoring and fault diagnostics have advanced transformatively with large language models (LLMs). This paper reviews LLM-based monitoring and diagnostics methodologies, categorizing them into in-context learning, fine-tuning, retrieval-augmented generation, multimodal learning, and time series approaches, analyzing advances in diagnostics and decision support. It identifies bottlenecks like limited industrial data and edge deployment issues, proposing a three-stage roadmap to highlight LLMs’ potential in shaping adaptive, interpretable PHM frameworks.
   key: d8e3bfae2c3e4d0b95999a2a793d625a
+- type: Preprints
+  title: 'LLM-based event log analysis techniques: A survey'
+  authors:
+  - Siraaj Akhtar
+  - Saad Khan
+  - Simon Parkinson
+  venue: arXiv preprint arXiv:2502.00677
+  url: https://arxiv.org/abs/2502.00677
+  year: 2025
+  month: 2
 - type: Journal Articles
   title: 'Offender Characterization and Prediction: A Case Study of The Kingdom of Bahrain'
   authors:

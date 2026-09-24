@@ -55,3 +55,11 @@
   authors: [Simon Parkinson, Paul Ward]
   venue: Department for Transport
   year: 2015
+
+- type: Preprints
+  title: 'LLM-based event log analysis techniques: A survey'
+  authors: [Siraaj Akhtar, Saad Khan, Simon Parkinson]
+  venue: arXiv preprint arXiv:2502.00677
+  url: https://arxiv.org/abs/2502.00677
+  year: 2025
+  month: 2

@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 {% assign pubs = site.data.publications %}
-{% assign types = "Journal Articles,Conference Papers,Books,Book Chapters,Technical Reports" | split: "," %}
+{% assign types = "Journal Articles,Conference Papers,Books,Book Chapters,Technical Reports,Preprints" | split: "," %}
 {% assign by_year = pubs | group_by: "year" | sort: "name" | reverse %}
 
 <div class="toolbar" role="search">
@@ -36,6 +36,7 @@ permalink: /publications/
         {% when "Book Chapters" %}{% assign label = "Chapter" %}
         {% when "Books" %}{% assign label = "Book" %}
         {% when "Technical Reports" %}{% assign label = "Report" %}
+        {% when "Preprints" %}{% assign label = "Preprint" %}
         {% else %}{% assign label = p.type %}
       {% endcase %}
       <li class="pub" data-type="{{ p.type }}" data-year="{{ p.year }}" data-search="{{ haystack | strip | downcase | escape }}">
