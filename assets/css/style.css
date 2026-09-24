@@ -207,7 +207,7 @@ a.stat:hover { border-color: var(--accent); }
 .pub-title a, .media-title a { text-decoration: none; }
 .pub-title a:hover, .media-title a:hover { text-decoration: underline; }
 .pub-authors { font-size: .93rem; }
-.pub-authors .me { font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.pub .me { font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
 .pub-venue { font-size: .93rem; color: var(--muted); font-style: italic; }
 .pub-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .35rem; align-items: center; }
 .pub-links a, .pub-links summary {
@@ -253,3 +253,26 @@ a.stat:hover { border-color: var(--accent); }
   .site-header, .toolbar, .theme-toggle, .pub-links, .site-footer { display: none !important; }
   body { background: #fff; color: #000; }
 }
+
+/* Compact CV lists */
+.cv-list { margin: 0 0 1rem; padding-left: 1.3rem; }
+.cv-list li { margin: 0 0 .45rem; padding-left: .2rem; line-height: 1.55; }
+.cv-list li::marker { color: var(--muted); }
+.cv-list.numbered li::marker { font-size: .85rem; font-variant-numeric: tabular-nums; }
+.summary { color: var(--muted); margin: 0 0 1.2rem; }
+.muted { color: var(--muted); font-size: .85rem; }
+h2 + h3 { margin-top: .8rem; }
+h3 { font-size: 1rem; margin: 1.2rem 0 .5rem; }
+
+/* Compact publications */
+.pub-list { list-style: none; padding: 0; }
+.pub { padding: .45rem 0; border-bottom: 0; line-height: 1.55; }
+.pub-title { display: inline; font-weight: 600; }
+.pub-venue { font-size: inherit; }
+.pub-links { display: inline-flex; margin: 0 0 0 .3rem; vertical-align: 1px; }
+.pub-links details[open] { display: block; }
+.pub-abstract { display: block; }
+.pub-year { margin: 1.4rem 0 .3rem; }
+.profile { grid-template-columns: 160px 1fr; align-items: center; }
+.profile-photo, .profile-monogram { width: 160px; height: 160px; }
+.contact-links { margin-bottom: 0; }

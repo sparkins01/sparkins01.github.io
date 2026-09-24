@@ -2,18 +2,10 @@
 layout: default
 title: Publications
 permalink: /publications/
-lede: Journal articles, conference papers, books, chapters and reports. Search or filter the list below, or download everything as BibTeX.
 ---
 {% assign pubs = site.data.publications %}
 {% assign types = "Journal Articles,Conference Papers,Books,Book Chapters,Technical Reports" | split: "," %}
 {% assign by_year = pubs | group_by: "year" | sort: "name" | reverse %}
-
-<div class="stats">
-  {% for t in types %}
-    {% assign n = pubs | where: "type", t %}
-    {% if n.size > 0 %}<a class="stat" href="#{{ t | uri_escape }}" onclick="var s=document.getElementById('pub-type');s.value='{{ t }}';s.dispatchEvent(new Event('change'));"><span class="num">{{ n.size }}</span><span class="label">{{ t }}</span></a>{% endif %}
-  {% endfor %}
-</div>
 
 <div class="toolbar" role="search">
   <input type="search" id="pub-search" placeholder="Search titles, authors, venues…" aria-label="Search publications">
@@ -47,22 +39,22 @@ lede: Journal articles, conference papers, books, chapters and reports. Search o
         {% else %}{% assign label = p.type %}
       {% endcase %}
       <li class="pub" data-type="{{ p.type }}" data-year="{{ p.year }}" data-search="{{ haystack | strip | downcase | escape }}">
-        <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title | escape }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title | escape }}</a>{% else %}{{ p.title | escape }}{% endif %}</span>
-        <div class="pub-authors">{% if p.authors.size > 0 %}{{ authors | strip }}{% else %}{{ editors | replace: "Simon Parkinson", '<span class="me">Simon Parkinson</span>' }}{% endif %}</div>
-        <div class="pub-venue">
+        {% if p.authors.size > 0 %}{{ authors | strip }}{% else %}{{ editors | replace: "Simon Parkinson", '<span class="me">Simon Parkinson</span>' }}{% endif %}.
+        <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title | escape }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title | escape }}</a>{% else %}{{ p.title | escape }}{% endif %}</span>.
+        <span class="pub-venue">
           {%- if p.venue %}{{ p.venue | escape }}{% endif -%}
           {%- if p.volume %}, {{ p.volume }}{% if p.number %}({{ p.number }}){% endif %}{% endif -%}
           {%- if p.pages %}, pp. {{ p.pages }}{% endif -%}
           {%- if p.type == "Books" or p.type == "Book Chapters" or p.type == "Technical Reports" %}{% if p.publisher %}{% if p.venue %}. {% endif %}{{ p.publisher }}{% endif %}{% endif -%}
           {%- if p.note %}. {{ p.note }}{% endif -%}
-        </div>
-        <div class="pub-links">
+        </span>, {{ p.year }}.
+        <span class="pub-links">
           <span class="pub-type">{{ label }}</span>
           {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
           {% if p.url %}<a href="{{ p.url }}">Link</a>{% endif %}
           {% if p.abstract %}<details><summary>Abstract</summary><p class="pub-abstract">{{ p.abstract | escape }}</p></details>{% endif %}
           {% if p.award %}<span class="pub-award">★ {{ p.award }}</span>{% endif %}
-        </div>
+        </span>
       </li>
     {% endfor %}
     </ol>

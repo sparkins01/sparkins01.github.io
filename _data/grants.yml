@@ -4,16 +4,13 @@
 summary:
   - label: External funding
     total: £5.885m
-    detail: PI £1.735m · Co-I £4.15m
-  - label: Internal (University of Huddersfield)
-    total: £405k
-    detail: PI £126.5k · Co-I £278.5k
+    detail: PI £2.01m · Co-I £3.875m
 
 external:
   - years: 2026–2029
     funder: Innovate UK (KTP with Petards Joyce-Loebl)
     title: A new approach to cryptographic certificate signing
-    role: Co-I
+    role: PI
     amount: £275k
   - years: 2026–2029
     funder: Innovate UK
@@ -138,44 +135,3 @@ external:
     role: Co-I
     amount: £153k
 
-internal:
-  - years: 2023–2024
-    title: Priming state-of-the-art digital forensic research
-    role: Co-I
-    amount: £170k
-  - years: 2023–2024
-    title: Cyberpsychology Research Network
-    role: Co-I
-    amount: £62.5k
-  - years: 2022–2023
-    title: Automated Digital Investigation
-    role: PI
-    amount: £115k
-  - years: 2016–2019
-    title: University Research Fund PhD stipend to develop cyber security capacity, linked with the formation of the Secure Societies Institute
-    role: Co-I
-    amount: £46k
-  - years: "2019"
-    title: "Collaborative Venture Fund with MDD Technologies: MyAuthentic8, theory into working practice"
-    role: PI
-    amount: £2.5k
-  - years: "2018"
-    title: "Collaborative Venture Fund with Kursch Ltd: Empirical analysis of the Loadstar platform"
-    role: PI
-    amount: £2.5k
-  - years: "2017"
-    title: "Collaborative Venture Fund with Konnektis Ltd: Data security and compliance consultation"
-    role: PI
-    amount: £2.5k
-  - years: "2017"
-    title: "Collaborative Venture Fund with Equilibrium Risk Ltd: Development of an auditing tool for Microsoft IIS services"
-    role: PI
-    amount: £2.5k
-  - years: "2016"
-    title: "Collaborative Venture Fund with Probado Ltd: Developing a flexible network audit and reporting tool"
-    role: PI
-    amount: £2.5k
-  - years: "2015"
-    title: "Collaborative Venture Fund with Portcullis Security Ltd: Developing software to extract Microsoft Active Directory permissions"
-    role: PI
-    amount: £1.5k

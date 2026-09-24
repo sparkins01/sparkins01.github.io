@@ -37,40 +37,6 @@ awards:
     title: Best Final Year Dissertation
     detail: University of Huddersfield
 
-appointments:
-  - years: 2026–present
-    title: UK Government DSIT College of Experts
-  - years: 2022–present
-    title: UK Government Cyber Security Advisory Board (GCAB), Member
-  - years: 2022–present
-    title: Associate Editor, IET Intelligent Transport Systems
-  - years: "2026"
-    title: Senior Programme Committee, 40th AAAI Conference on Artificial Intelligence (AAAI-26), Singapore
-  - years: "2023"
-    title: Workshop & Tutorial Co-Organiser, ICAPS 2023, Charles University, Prague
-  - years: 2019–2020
-    title: Applications Track Co-Chair, ICAPS (Nancy, France and Berkeley, USA)
-  - years: 2018–2020
-    title: Area Editor, EAI Endorsed Transactions on Security and Safety
-  - years: 2016–present
-    title: Organising Committee, Scheduling and Planning Applications woRKshop (SPARK)
-  - years: 2017–present
-    title: Programme Committee, ICAPS; also ECAI (2020–), AAMAS (2019–), IJCAI (2018–) and IEEE ICVES (2018–)
-
-funding_service:
-  - years: "2025"
-    title: Reviewer, Defence-related Research Action (DEFRA), Belgian Defence
-  - years: 2024–present
-    title: Reviewer, Swiss National Science Foundation (SNSF)
-  - years: 2024–present
-    title: Reviewer, The Israeli Smart Transportation Research Centre
-  - years: 2020–present
-    title: Reviewer, EPSRC proposals
-  - years: 2020–present
-    title: Reviewer, National Research, Development and Innovation Office, Hungary
-  - years: "2020"
-    title: Expert Panel Member, EPSRC Protecting Citizens Online
-
 external_examining:
   - years: 2026–present
     title: Xi’an Jiaotong-Liverpool University (XJTLU), Cyber Security UG/PG pathways
