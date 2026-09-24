@@ -7,10 +7,6 @@ current:
       degree: PhD
       title: The use of Large Language Models for Security Compliance
       years: 2024–2027
-    - name: Mohamed Ishfaq
-      degree: PhD
-      title: Zero-Day Attacks and High False Alarms in Enhanced Intrusion Detection System for Computing Environments Using Machine Learning
-      years: 2024–2027
     - name: Mohammed Reza
       degree: PhD
       title: Detecting the use of Generative AI in images
@@ -19,14 +15,6 @@ current:
       degree: PhD
       title: Detecting Deceitful Behaviour in Traffic Control
       years: 2023–2026
-    - name: Daniel Cecil
-      degree: PhD
-      title: Graph-based Security Evaluation & Design in the Internet of Things Devices and Networks
-      years: 2021–2024
-    - name: Mohamed Massoud
-      degree: PhD
-      title: Virtual working network as a novel framework for supporting virtual network environment based on a social networking perspective
-      years: 2015–2024
   team:
     - name: Farah Farid Babar
       degree: PhD
@@ -39,10 +27,6 @@ current:
     - name: Syed Usman Shaukat
       degree: PhD
       title: Vulnerabilities and weaknesses in Internet of Things (IoT) devices
-      years: 2024–2027
-    - name: Matthew Benjamin Tinker
-      degree: PhD
-      title: High-Performance Computing Security Framework
       years: 2024–2027
     - name: Siraaj Akhtar
       degree: PhD
