@@ -9,10 +9,3 @@ permalink: /awards/
   <li><strong>{{ x.title }}</strong>{% if x.detail %}. {{ x.detail }}{% endif %}, {{ x.year }}.</li>
 {% endfor %}
 </ul>
-
-<h2>External examiner (teaching)</h2>
-<ul class="cv-list">
-{% for x in d.external_examining %}
-  <li>{{ x.title }}, {{ x.years }}.</li>
-{% endfor %}
-</ul>

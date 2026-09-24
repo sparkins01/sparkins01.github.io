@@ -14,13 +14,11 @@ title: About
     <p class="post-nominals">{{ a.post_nominals }}</p>
     <p class="position">{{ a.position }}, {{ a.affiliation }}</p>
     <ul class="contact-links">
-      {% if a.email %}<li><a href="mailto:{{ a.email }}">Email</a></li>{% endif %}
       {% if a.google_scholar %}<li><a href="{{ a.google_scholar }}">Google Scholar</a></li>{% endif %}
       {% if a.orcid %}<li><a href="{{ a.orcid }}">ORCID</a></li>{% endif %}
       {% if a.dblp %}<li><a href="{{ a.dblp }}">DBLP</a></li>{% endif %}
       {% if a.linkedin %}<li><a href="{{ a.linkedin }}">LinkedIn</a></li>{% endif %}
       {% if a.pure %}<li><a href="{{ a.pure }}">Research portal</a></li>{% endif %}
-      <li><a href="{{ '/files/publications.bib' | relative_url }}">BibTeX</a></li>
     </ul>
   </div>
 </section>
@@ -51,7 +49,27 @@ title: About
   <li>Member, UK Government Cyber Security Advisory Board (GCAB)</li>
   <li>Member, UK Government DSIT College of Experts</li>
   <li>Associate Editor, <em>IET Intelligent Transport Systems</em></li>
+  <li>Editorial Board Member, Springer Nature</li>
   {% for x in site.data.awards.external_examining %}{% if x.years contains "present" %}
   <li>External Examiner, {{ x.title }}</li>
   {% endif %}{% endfor %}
+</ul>
+
+<h2>Previous roles</h2>
+<h3>Academic appointments</h3>
+<ul class="cv-list">
+  <li>Professor of Cyber Security, University of Huddersfield, 2022–2026</li>
+  <li>Director, Centre for Cyber Security, University of Huddersfield, 2018–2026</li>
+  <li>Computer Science Research Co-ordinator, University of Huddersfield, 2021–2026</li>
+  <li>Designated Academic Liaison Officer (DALO), MSc Cyber Security &amp; Digital Forensics (Bahrain), University of Huddersfield, 2022–2025</li>
+  <li>Reader in Cyber Security, University of Huddersfield, 2018–2022</li>
+  <li>Senior Lecturer in Computer Science, University of Huddersfield, 2016–2018</li>
+  <li>Lecturer in Computer Science, University of Huddersfield, 2014–2016</li>
+  <li>Research Fellow, University of Huddersfield, 2014</li>
+</ul>
+<h3>External examining</h3>
+<ul class="cv-list">
+  {% for x in site.data.awards.external_examining %}{% unless x.years contains "present" %}
+  <li>External Examiner, {{ x.title }}, {{ x.years }}</li>
+  {% endunless %}{% endfor %}
 </ul>
