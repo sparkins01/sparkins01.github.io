@@ -11,7 +11,7 @@ permalink: /media/
 
 <h2>Invited talks and events</h2>
 <ul class="cv-list">
-{% for x in m.talks %}<li><strong>{{ x.role }}</strong>, {{ x.event }}, {{ x.year }}.</li>
+{% for x in m.talks %}<li><strong>{{ x.role }}</strong>{% if x.title %}: “{{ x.title }}”{% endif %}, {{ x.event }}, {{ x.year }}.</li>
 {% endfor %}</ul>
 
 <h2>Knowledge exchange and community engagement</h2>

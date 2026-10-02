@@ -56,8 +56,9 @@ press:
     url: http://www.alphagalileo.org/ViewItem.aspx?ItemId=163408&CultureCode=en
 
 talks:
-  - year: "2026"
-    role: Keynote Speaker
+  - year: 2 October 2026
+    role: Keynote Speaker (Plenary Talk)
+    title: "Dormant permissions, active agents: what access control auditing teaches us about agentic AI"
     event: 16th International Conference on Dependable Systems, Services and Technologies (DESSERT 2026), Corfu, Greece
   - year: "2026"
     role: Invited Speaker
