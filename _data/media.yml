@@ -57,6 +57,9 @@ press:
 
 talks:
   - year: "2026"
+    role: Keynote Speaker
+    event: 16th International Conference on Dependable Systems, Services and Technologies (DESSERT 2026), Corfu, Greece
+  - year: "2026"
     role: Invited Speaker
     event: 5th International Conference on Intelligent Systems, Communications and Computer Networks, Henan, China
   - year: "2025"
