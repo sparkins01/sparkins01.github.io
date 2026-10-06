@@ -3,7 +3,7 @@
 
 summary:
   - label: External funding
-    total: £5.885m
+    total: £3.135m
 
 external:
   - years: 2026–2029
@@ -11,11 +11,6 @@ external:
     title: A new approach to cryptographic certificate signing
     role: PI
     amount: £275k
-  - years: 2026–2029
-    funder: Innovate UK
-    title: The Yorkshire Robotics Adoption Hub
-    role: Co-I
-    amount: £2.75m
   - years: "2026"
     funder: ESRC / SPRITE+ (RISE VAWG programme)
     title: "SaferStreetsAI: AI-informed pedestrian routing based on perceived safety"
