@@ -5,13 +5,10 @@ permalink: /supervision/
 ---
 {% assign s = site.data.supervision %}
 <h2>Current students</h2>
-<h3>Director of Studies</h3>
+<h3>External adviser</h3>
 <ul class="cv-list">
-{% for x in s.current.director %}<li><strong>{{ x.name }}</strong> ({{ x.degree }}, {{ x.years }}). <em>{{ x.title }}</em>.</li>
-{% endfor %}</ul>
-<h3>Supervisory team</h3>
-<ul class="cv-list">
-{% for x in s.current.team %}<li><strong>{{ x.name }}</strong> ({{ x.degree }}, {{ x.years }}). <em>{{ x.title }}</em>.</li>
+{% assign advised = s.current.director | concat: s.current.team %}
+{% for x in advised %}<li><strong>{{ x.name }}</strong> ({{ x.degree }}, {{ x.years }}). <em>{{ x.title }}</em>.</li>
 {% endfor %}</ul>
 
 <h2>Completed students</h2>
