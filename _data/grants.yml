@@ -3,7 +3,7 @@
 
 summary:
   - label: External funding
-    total: £3.185m
+    total: £2.64m
 
 external:
   - years: 2026–2029
@@ -15,7 +15,7 @@ external:
     funder: ESRC / SPRITE+ (RISE VAWG programme)
     title: "SaferStreetsAI II: AI-informed pedestrian routing based on perceived safety"
     role: PI
-    amount: £50k
+    amount: £40k
     description: A follow-on to SaferStreetsAI.
   - years: "2026"
     funder: ESRC / SPRITE+ (RISE VAWG programme)
