@@ -3,7 +3,7 @@
 
 summary:
   - label: External funding
-    total: £3.135m
+    total: £3.185m
 
 external:
   - years: 2026–2029
@@ -11,6 +11,12 @@ external:
     title: A new approach to cryptographic certificate signing
     role: PI
     amount: £275k
+  - years: "2026"
+    funder: ESRC / SPRITE+ (RISE VAWG programme)
+    title: "SaferStreetsAI II: AI-informed pedestrian routing based on perceived safety"
+    role: PI
+    amount: £50k
+    description: A follow-on to SaferStreetsAI.
   - years: "2026"
     funder: ESRC / SPRITE+ (RISE VAWG programme)
     title: "SaferStreetsAI: AI-informed pedestrian routing based on perceived safety"
